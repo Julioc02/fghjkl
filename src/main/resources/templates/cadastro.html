@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>Home</title>
+</head>
+<h1>Cadastro de Alunos</h1>
+
+<form action="/salvar" method="post">
+         <label>Aluno(a):</label>
+         <input type="text" name="aluno">
+         <label>Data de Nascimento:</label>
+         <input type="date" name="dn">
+         <label>Escola de Origem:</label>
+         <select name="origem">
+            <option>Selecione</option> 
+                <option>Publica</option> 
+                    <option>Privada</option> 
+         </select>
+         
+                  <label>Concorrencia:</label>
+         <select name="concorrencia">
+            <option>Selecione</option> 
+                <option>Ampla</option> 
+                    <option>Cota</option> 
+         </select><br>
+         
+         <label>
+              Telefone:
+         </label>
+         
+         <input type="tel" name="telefone">
+         
+                  <label>Curso:</label>
+         <select name="curso">
+            <option>Selecione</option> 
+                <option>ADM</option> 
+                    <option>AGRO</option> 
+                        <option>FIN</option>
+                            <option>INFO</option>
+         </select><br>
+         
+         <input type="submit" value="CADASTRAR">
+         
+         
+</form>
+
+
+   <form action="/logout" method="get">
+        <button type="submit">Sair</button>
+    </form>
+    
+    </html>
